@@ -7,10 +7,6 @@ st.write('Welcome to the chatbot! Please do ask your question and I will try to 
 
 question = st.text_input('Ask a question:', key='unique_key')
 
-while question == 'goodbye':
-    st.write('Goodbye! Have a nice day!')
-    break
-
 if question == 'hello':
     st.write('Hello! How can I help you?')
 elif question == 'what is your name?':
